@@ -1,0 +1,12 @@
+body {
+  margin: 10px;
+}
+.search-button {
+  width: 350px;
+  margin: 30px;
+}
+.big-card {
+  margin: 30px;
+  padding: 20px;
+  height: 300px;
+}
