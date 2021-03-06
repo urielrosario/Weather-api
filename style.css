@@ -10,3 +10,6 @@ body {
   padding: 20px;
   height: 300px;
 }
+li {
+  margin: 10px;
+}

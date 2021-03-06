@@ -17,60 +17,78 @@
     </header>
  
     <div class="input-group mb-3 search-button">
-        <input type="text" class="form-control" id="city">
+        <input type="text" id="city" class="form-control" >
         <button class="btn btn-outline-secondary" type="button" id="search-button">Search</button>
     </div>
-    <div class="row ml-2 border-dark border rounded big-card">
-        <h3 id="city-names">City</h3>
-        <p id="icon"></p>
+    <!-- search history -->
+    <div class="container">
+        <ul class="list-group row ">
+            <li class="list-group-item"></li>
+            <li class="list-group-item"></li>
+            <li class="list-group-item"></li>
+            <li class="list-group-item"></li>
+            <li class="list-group-item"></li>
+           
+        </ul>
+
+    </div>
+
+    <div class="row ml-2 border-dark border rounded big-card container" >
+        <h3 id="city-names">City:</h3>
+        <p class="icon"></p>
         <div>
-            <p id="temperature" >Temperature:</p>
-            <p id="humidity">Humidity (%):</p>
-            <p id="windspeed">Wind Speed (MPH):</p>
-            <p id="uv">UV Index:</p>
+            <ul>
+              <li class="list-group-item" id="temperature" >Temperature:</li>
+              <li class="list-group-item" id="humidity">Humidity (%):</li>
+              <li class="list-group-item" id="windspeed">Wind Speed (MPH):</li>
+              <li class="list-group-item" id="uv">UV Index:</li>
+
+
+            </ul>
+            
         </div>
     </div>
 
-    <div id="forecast-cards">
+    <div class="row" id="forecast-cards">
         <h3>5-Day Forecast</h3>
        <div class="card col-sm-2 ml-3 mb-4 p-3 mt-2" style="width: 18rem;">
          <div class="card-body">
-           <p id="date0"></p>
-           <p id= "img0"></p>
-           <p>Temperature:<span id="cardTemp0" ></span></p>
-           <p>Humidity:<span id="cardHumidity0" ></span></p>
+             <a class="icon"></a>
+           <p id="date1"></p>
+           <p>Temperature:<span id="cardTemp1" ></span></p>
+           <p>Humidity:<span id="cardHumidity1" ></span></p>
          </div>
        </div>
         <div class="card col-sm-2 ml-3 mb-4 p-3 mt-2" style="width: 18rem;">
             <div class="card-body">
-                <p id="date1"></p>
-                <p id= "img1"></p>
-              <p>Temperature:<span id="cardTemp1" ></span></p>
-              <p>Humidity:<span id="cardHumidity1" ></span></p>
-            </div>
-        </div>
-        <div class="card col-sm-2 ml-3 mb-4 p-3 mt-2" style="width: 18rem;">
-            <div class="card-body">
+                <a class="icon"></a>
                 <p id="date2"></p>
-                <p id= "img2"></p>
               <p>Temperature:<span id="cardTemp2" ></span></p>
               <p>Humidity:<span id="cardHumidity2" ></span></p>
             </div>
         </div>
         <div class="card col-sm-2 ml-3 mb-4 p-3 mt-2" style="width: 18rem;">
             <div class="card-body">
+                <a class="icon"></a>
                 <p id="date3"></p>
-                <p id= "img3"></p>
               <p>Temperature:<span id="cardTemp3" ></span></p>
               <p>Humidity:<span id="cardHumidity3" ></span></p>
             </div>
         </div>
         <div class="card col-sm-2 ml-3 mb-4 p-3 mt-2" style="width: 18rem;">
             <div class="card-body">
+                <a class="icon"></a>
                 <p id="date4"></p>
-                <p id= "img4"></p>
               <p>Temperature:<span id="cardTemp4" ></span></p>
               <p>Humidity:<span id="cardHumidity4" ></span></p>
+            </div>
+        </div>
+        <div class="card col-sm-2 ml-3 mb-4 p-3 mt-2" style="width: 18rem;">
+            <div class="card-body">
+                <a class="icon"></a>
+                <p id="date5"></p>
+              <p>Temperature:<span id="cardTemp5" ></span></p>
+              <p>Humidity:<span id="cardHumidity5" ></span></p>
             </div>
         </div>
     </div>
